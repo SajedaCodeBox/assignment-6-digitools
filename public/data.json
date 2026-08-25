@@ -1,0 +1,153 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Pro",
+    "description": "Professional resume builder with modern templates and ATS optimization.",
+    "price": 29,
+    "period": "Mo",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF"
+     
+    ],
+    "image": "https://i.ibb.co.com/YTWR6gsR/writing-2327400-1.png"
+  },
+  {
+    "id": 2,
+    "name": "CV Starter",
+    "description": "Simple and affordable CV builder for students and beginners.",
+    "price": 49,
+    "period": "One-Time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "30+ templates",
+      "Easy customization",
+      "PDF export"
+    ],
+    "image": "https://i.ibb.co.com/gMVwn8wd/design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "Career Plus",
+    "description": "Complete career toolkit for creating resumes and cover letters.",
+    "price": 19,
+    "period": "Mo",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "200+ templates",
+      "Cover letter builder",
+      "ATS optimization" 
+    ],
+    "image": "https://i.ibb.co.com/bj0VfMdX/operation.png"
+  },
+  {
+    "id": 4,
+    "name": "Job Seeker",
+    "description": "Powerful tools to help job seekers create professional applications.",
+    "price": 79,
+    "period": "Mo",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "500+ templates",
+      "Resume analysis",
+      "ATS optimization"
+    ],
+    "image": "https://i.ibb.co.com/vx4Vh6TW/portfolio.png"
+  },
+  {
+    "id": 5,
+    "name": "Resume Basic",
+    "description": "A clean and simple resume builder for quick professional resumes.",
+    "price": 15,
+    "period": "One-Time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "15+ templates",
+      "Basic customization",
+      "PDF export"
+    ],
+    "image": "https://i.ibb.co.com/jkyXkkhg/social-media.png"
+  },
+  {
+    "id": 6,
+    "name": "Professional Suite",
+    "description": "Advanced resume and career tools designed for experienced professionals.",
+    "price": 39,
+    "period": "Mo",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "300+ templates",
+      "AI resume suggestions",
+      "ATS optimization"
+    ],
+     "image": "https://i.ibb.co.com/YTWR6gsR/writing-2327400-1.png"
+  },
+  {
+    "id": 7,
+    "name": "Executive CV",
+    "description": "Premium CV templates designed for managers and senior professionals.",
+    "price": 60,
+    "period": "One-Time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Premium templates",
+      "Executive layouts",
+      "ATS optimization"
+    ],
+    "image": "https://i.ibb.co.com/gMVwn8wd/design-tool.png"
+  },
+  {
+    "id": 8,
+    "name": "Student Pack",
+    "description": "Affordable resume tools specially designed for students and fresh graduates.",
+    "price": 80,
+    "period": "Mo",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "50+ student templates",
+      "Skill suggestions",
+      "PDF export"
+    ],
+    "image": "https://i.ibb.co.com/bj0VfMdX/operation.png"
+  },
+  {
+    "id": 9,
+    "name": "Career Elite",
+    "description": "Premium career package with advanced resume and job application tools.",
+    "price": 30,
+    "period": "One-Time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "400+ templates",
+      "AI resume review",
+      "ATS optimization"
+    ],
+    "image": "https://i.ibb.co.com/vx4Vh6TW/portfolio.png"
+  },
+  {
+    "id": 10,
+    "name": "Fresh Graduate",
+    "description": "A complete resume solution designed for fresh graduates entering the job market.",
+    "price": 40,
+    "period": "Mo",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "100+ graduate templates",
+      "Skill recommendations",
+      "ATS-friendly designs"
+    ],
+    "image": "https://i.ibb.co.com/jkyXkkhg/social-media.png"
+  }
+]
