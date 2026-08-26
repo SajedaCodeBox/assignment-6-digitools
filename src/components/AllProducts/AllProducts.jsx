@@ -8,7 +8,7 @@ const AllProducts = ({fetchdata, prices, setPrices}) => {
      const [selectedType, setSelectedType] = useState ("products");
      const [selectedAllCards, setSelectedAllCards] = useState ([]);
     return ( 
-        <div className='container mx-auto border '>
+        <div className='container mx-auto pt-20'>
         <div className='flex items-center justify-center flex-col  text-center space-y-3'>
             <h1 className='font-bold text-3xl'>Premium Digital Tools</h1>
             <p className='text-[#627382]'>Choose from our curated collection of premium digital products designed<br />to boost your productivity and creativity.</p>

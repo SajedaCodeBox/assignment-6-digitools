@@ -6,8 +6,7 @@ import SelectedCard from './SelectedCard';
 const SelectedCards = ({selectedAllCards, setSelectedAllCards, prices, setPrices}) => {
     
      const handleRemoveCard = (selectedAllCard) => {
-        const filteredCards = selectedAllCards.filter 
-        (selectedAllCarded => selectedAllCarded.name !== selectedAllCard.name);
+        const filteredCards = selectedAllCards.filter (selectedAllCarded => selectedAllCarded.name !== selectedAllCard.name);
         setSelectedAllCards (filteredCards);
         setPrices (prices - Number (selectedAllCard.price))
      };
