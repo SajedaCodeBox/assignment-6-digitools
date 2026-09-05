@@ -5,6 +5,7 @@ import AllProducts from './components/AllProducts/AllProducts';
 import Navbar from './components/Navbar/Navbar';
 import Bannar from './components/Bannar/Bannar';
 import StatsSection from './components/StatsSection/StatsSection';
+import StepsSection from './components/StepsSection/StepsSection';
 
 function App() {
  
@@ -19,6 +20,7 @@ function App() {
     <Suspense fallback = {<span className="loading loading-dots loading-lg"></span>}>
     <AllProducts fetchdata = {fetchdata} prices = {prices} setPrices = {setPrices}></AllProducts>
     </Suspense>
+    <StepsSection></StepsSection>
     </>
   )
 }
