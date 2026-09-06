@@ -6,6 +6,7 @@ import Navbar from './components/Navbar/Navbar';
 import Bannar from './components/Bannar/Bannar';
 import StatsSection from './components/StatsSection/StatsSection';
 import StepsSection from './components/StepsSection/StepsSection';
+import TransparentSection from './components/AllCards/TransparentSection/TransparentSection';
 
 function App() {
  
@@ -21,6 +22,7 @@ function App() {
     <AllProducts fetchdata = {fetchdata} prices = {prices} setPrices = {setPrices}></AllProducts>
     </Suspense>
     <StepsSection></StepsSection>
+    <TransparentSection></TransparentSection>
     </>
   )
 }
