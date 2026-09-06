@@ -7,6 +7,7 @@ import Bannar from './components/Bannar/Bannar';
 import StatsSection from './components/StatsSection/StatsSection';
 import StepsSection from './components/StepsSection/StepsSection';
 import TransparentSection from './components/AllCards/TransparentSection/TransparentSection';
+import WorkFlowSection from './components/WorkFlowSection/WorkFlowSection';
 
 function App() {
  
@@ -23,6 +24,7 @@ function App() {
     </Suspense>
     <StepsSection></StepsSection>
     <TransparentSection></TransparentSection>
+    <WorkFlowSection></WorkFlowSection>
     </>
   )
 }
