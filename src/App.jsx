@@ -9,6 +9,7 @@ import StepsSection from './components/StepsSection/StepsSection';
 import TransparentSection from './components/AllCards/TransparentSection/TransparentSection';
 import WorkFlowSection from './components/WorkFlowSection/WorkFlowSection';
 import Footer from './components/Footer/Footer';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
  
@@ -27,6 +28,7 @@ function App() {
     <TransparentSection></TransparentSection>
     <WorkFlowSection></WorkFlowSection>
     <Footer></Footer>
+     <ToastContainer />
     </>
   )
 }

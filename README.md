@@ -1,16 +1,18 @@
-# React + Vite
+1. Name of my project is Digital Tools Buying Website.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+2. Description : In this project i create  a respronsitive navbar section , bannar section, and the most important product section . If i click any of this product button it will stored in carts section. If i want i can also removed the products from cart section . I also added toastify in this section buttons. Then i create 3 steps section,pricing section, workflow section and lastly the footer section.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+3. Technology that i used:
+1. Tailwind CSS
+2. DaisyUI
+3. React.js
+4. React-Toastify (NPM Package)
+5. JavaScript (ES6+)
+6. JSON (for product data)
 
-## React Compiler
+4. 3 Features about my project:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. If i click the products buttons the toastity are successfully appeared.
+2. If i click the Buy Now button the the carts are stored in carts section.
+3. From the carts section i can remove any of the cart and if i want i can remove all the carts at a time by click in proceed to checkout button. 

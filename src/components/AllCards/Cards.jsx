@@ -1,5 +1,6 @@
 import React from "react";
 import FeaturesCard from "./FeaturesCard";
+import { toast } from "react-toastify";
 
 const Cards = ({ allProduct, selectedAllCards, setSelectedAllCards, prices, setPrices }) => {
   const { name, description, price, period, tag, features, image } = allProduct;
@@ -7,6 +8,7 @@ const Cards = ({ allProduct, selectedAllCards, setSelectedAllCards, prices, setP
 const handleCards = () => {
    setPrices (prices + Number(allProduct.price))
   setSelectedAllCards([...selectedAllCards, allProduct])
+  toast.success("Product is Selected");
   
 }
 

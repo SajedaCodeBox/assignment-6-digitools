@@ -2,6 +2,7 @@ import React from 'react';
 
 import { BsCart } from 'react-icons/bs';
 import SelectedCard from './SelectedCard';
+import { toast } from 'react-toastify';
 
 const SelectedCards = ({selectedAllCards, setSelectedAllCards, prices, setPrices}) => {
     
@@ -9,10 +10,12 @@ const SelectedCards = ({selectedAllCards, setSelectedAllCards, prices, setPrices
         const filteredCards = selectedAllCards.filter (selectedAllCarded => selectedAllCarded.name !== selectedAllCard.name);
         setSelectedAllCards (filteredCards);
         setPrices (prices - Number (selectedAllCard.price))
+        toast.success("This cart is successfully removed");
      };
 
      const handleAllRemove = () => {
         setSelectedAllCards ([])
+        toast.success("All carts are successfully removed");
         
      }
 
