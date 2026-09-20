@@ -8,6 +8,7 @@ import StatsSection from './components/StatsSection/StatsSection';
 import StepsSection from './components/StepsSection/StepsSection';
 import TransparentSection from './components/AllCards/TransparentSection/TransparentSection';
 import WorkFlowSection from './components/WorkFlowSection/WorkFlowSection';
+import Footer from './components/Footer/Footer';
 
 function App() {
  
@@ -25,6 +26,7 @@ function App() {
     <StepsSection></StepsSection>
     <TransparentSection></TransparentSection>
     <WorkFlowSection></WorkFlowSection>
+    <Footer></Footer>
     </>
   )
 }
